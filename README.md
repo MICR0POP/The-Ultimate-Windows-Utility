@@ -20,7 +20,7 @@ irm https://tinyurl.com/MICR0POP | iex
 ```
 If you are having TLS 1.2 Issues or You cannot find or resolve `christitus.com/win` then run with the following command:
 ```
-[Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12;iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/ChrisTitusTech/winutil/main/winutil.ps1')
+[Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12;iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/MICR0POP/The-Ultimate-Windows-Utility/main/winutil.ps1')
 ```
 
 If you are still having issues try changing your DNS provider to 1.1.1.1 or 8.8.8.8

